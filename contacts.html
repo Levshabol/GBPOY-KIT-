@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты — ГБПОУ «КИТ»</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+    <div class="loader-logo"><span class="b">ГБПОУ</span> <span class="c">«КИТ»</span></div>
+    <div class="loader-bar"><i></i></div>
+  </div>
+<div id="prog"></div>
+<canvas id="net"></canvas>
+<div class="bg-glow"></div>
+<header id="hdr">
+    <div class="nav">
+      <a href="index.html" class="brand">
+        <span class="row"><span class="b">ГБПОУ</span> <span class="c">«КИТ»</span></span>
+        <small>Колледж информационных технологий</small>
+      </a>
+      <nav class="links">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О колледже</a>
+        <a href="programs.html">Обучение</a>
+        <a href="admission.html">Поступление</a>
+        <a href="contacts.html" class="active">Контакты</a>
+        <a href="admission.html" class="nav-cta">Поступить</a>
+      </nav>
+    </div>
+  </header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="kicker reveal">Контакты</div>
+      <h1 class="reveal">Свяжитесь <span class="g">с нами</span></h1>
+      <p class="lead reveal">Приёмная комиссия и администрация колледжа готовы ответить на ваши вопросы.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="ci"><div class="l">Приёмная комиссия</div><div class="v">+7 (3532) 44-12-08</div></div>
+          <div class="ci"><div class="l">Электронная почта</div><div class="v">info@kit-college.ru</div></div>
+          <div class="ci"><div class="l">Сайт</div><div class="v">www.kit-college.ru</div></div>
+          <div class="ci"><div class="l">Адрес</div><div class="v">г. Оренбург, ул. Машинная, 44</div></div>
+          <div class="panel" style="margin-top:8px;">
+            <h3>Режим работы</h3>
+            <div class="hrow"><span>Понедельник – пятница</span><span class="a">8:00 – 17:00</span></div>
+            <div class="hrow"><span>Суббота</span><span>9:00 – 14:00</span></div>
+            <div class="hrow"><span>Воскресенье</span><span>выходной</span></div>
+            <div class="hrow"><span>Приёмная (июнь–август)</span><span class="a">8:00 – 18:00</span></div>
+          </div>
+        </div>
+        <div class="panel reveal" style="transition-delay:.15s">
+          <h3>Задать вопрос</h3>
+          <p style="color:var(--muted);margin-bottom:18px;">Оставьте заявку, и приёмная комиссия свяжется с вами.</p>
+          <div class="cform">
+            <input type="text" placeholder="Ваше имя">
+            <input type="tel" placeholder="Телефон для связи">
+            <input type="text" placeholder="Интересующая специальность">
+            <textarea rows="4" placeholder="Ваш вопрос"></textarea>
+            <button onclick="this.textContent='Заявка отправлена ✓';this.style.opacity=.7">Отправить заявку</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+    <div class="foot">
+      <a href="index.html" class="brand"><span class="row"><span class="b">ГБПОУ</span> <span class="c">«КИТ»</span></span><small>Колледж информационных технологий</small></a>
+      <nav><a href="about.html">О колледже</a><a href="programs.html">Обучение</a><a href="admission.html">Поступление</a><a href="contacts.html">Контакты</a></nav>
+    </div>
+    <div class="copy">© ГБПОУ «Колледж информационных технологий». Знания сегодня — возможности завтра.</div>
+  </footer>
+<script src="app.js"></script>
+</body>
+</html>
